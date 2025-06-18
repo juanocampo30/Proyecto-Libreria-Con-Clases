@@ -1,0 +1,5 @@
+nos quedamos en ponerle los event listeners a los botones de 
+eliminar libro y cambiar estatus mas precisamente en como hacer la 
+funcion callback (pista = al callback pasale un argumento que sea el objeto 
+si se puede no vayas a pensar que no pero debes pasarla mediante una arrow function
+investiga mas eso)

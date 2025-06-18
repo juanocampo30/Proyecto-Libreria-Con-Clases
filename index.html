@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="" class="formulario">
+
+        <div class="inputs">
+            <div class="texto">
+                <label for="nombrelibro">Nombre del libro:</label>
+                <input type="text" id="nombrelibro">
+            </div>
+
+            <div class="texto">
+                <label for="autorlibro">Autor:</label>
+                <input type="text" id="autorlibro">
+            </div>
+
+            <div class="texto">
+                <label for="paginaslibro">Numero de paginas:</label>
+                <input type="text" id="paginaslibro">
+            </div>
+
+            <div>
+                <p>Haz leido el libro?</p>
+                <div>
+                    <input type="radio" value="Si" id="leido" name="leidoono">
+                    <label for="leido">Si</label>
+                </div>
+                <div>
+
+                    <input type="radio" value="No" id="noleido" name="leidoono">
+                    <label for="noleido">No</label>
+                </div>
+            </div>
+
+            <button id="botonagregar" type="button">
+                Agregar libro
+            </button>
+
+        </div>
+    </form>
+
+    <div id="estanteria">
+
+    </div>
+
+</body>
+
+</html>

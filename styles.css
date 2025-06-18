@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    padding-inline-start: 0px;
+}
+
+body {
+    display: flex;
+}
+
+/*------------------------------------- formulario------------------------------*/
+
+.formulario {
+    background-color: rgb(124, 99, 150);
+    width: 20%;
+    height: 100vh;
+}
+
+.inputs {
+    display: grid;
+    height: 40%;
+}
+
+.texto input {
+    width: 95%;
+}
+
+#botonagregar {
+    margin: 30px;
+    border-radius: 10px;
+}
+
+/*------------------------------------estanteria----------------------------------------*/
+
+#estanteria {
+    background-color: antiquewhite;
+    width: 80%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(4,25%);
+}
